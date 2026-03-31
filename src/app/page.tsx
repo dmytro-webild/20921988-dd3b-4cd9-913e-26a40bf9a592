@@ -47,8 +47,8 @@ export default function LandingPage() {
       tag="Clínica Dental Referência"
       buttons={[{ text: "Agendar via WhatsApp", href: "https://wa.me/55000000000" }]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg", imageAlt: "Dentista atendendo paciente" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg", imageAlt: "Clínica odontológica moderna" }
+        { imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=1", imageAlt: "Dentista atendendo paciente" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=1", imageAlt: "Clínica odontológica moderna" }
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -63,7 +63,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",          title: "Implantes Dentários",          description: "Recupere a funcionalidade e estética do seu sorriso com segurança e durabilidade.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg", imageAlt: "Implantes" },
+          id: "f1",          title: "Implantes Dentários",          description: "Recupere a funcionalidade e estética do seu sorriso com segurança e durabilidade.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=2", imageAlt: "Implantes" },
           items: [
             { icon: CheckCircle, text: "Materiais de alta qualidade" },
             { icon: CheckCircle, text: "Tecnologia guiada por computador" },
@@ -119,7 +119,7 @@ export default function LandingPage() {
         { id: "q2", title: "Aceitam convênio?", content: "Trabalhamos com os principais planos de saúde. Entre em contato para confirmar o seu." },
         { id: "q3", title: "Qual a duração do procedimento?", content: "Cada tratamento é personalizado. Avaliamos a duração durante sua primeira consulta." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=2"
       mediaAnimation="slide-up"
       title="Dúvidas Frequentes"
       description="Tudo o que você precisa saber antes da sua consulta."
