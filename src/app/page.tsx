@@ -66,23 +66,23 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=1",
           imageAlt: "Dentista atendendo paciente",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=2",
           imageAlt: "Clínica odontológica moderna",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=1",
           imageAlt: "Equipamento dental avançado",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg?_wi=1",
           imageAlt: "Procedimento estético",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg?_wi=1",
           imageAlt: "Consultório premium",
         },
       ]}
@@ -103,7 +103,7 @@ export default function LandingPage() {
           title: "Implantes Dentários",
           description: "Recupere a funcionalidade e estética do seu sorriso com segurança e durabilidade.",
           media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=2",
             imageAlt: "Implantes",
           },
           items: [
@@ -117,7 +117,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=3",
           imageAlt: "dentista profissional sorrindo consultório",
         },
         {
@@ -125,7 +125,7 @@ export default function LandingPage() {
           title: "Clareamento Dental",
           description: "Obtenha um sorriso mais branco e radiante com tratamentos supervisionados.",
           media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg?_wi=2",
             imageAlt: "Clareamento",
           },
           items: [
@@ -139,7 +139,7 @@ export default function LandingPage() {
             },
           ],
           reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=3",
           imageAlt: "dental implant procedure close up",
         },
         {
@@ -147,7 +147,7 @@ export default function LandingPage() {
           title: "Ortodontia",
           description: "Alinhamento preciso para um sorriso harmonioso e saúde bucal plena.",
           media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg?_wi=2",
             imageAlt: "Ortodontia",
           },
           items: [
@@ -161,7 +161,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg?_wi=3",
           imageAlt: "teeth whitening procedure aesthetic dentistry",
         },
       ]}
@@ -224,7 +224,7 @@ export default function LandingPage() {
           content: "Cada tratamento é personalizado. Avaliamos a duração durante sua primeira consulta.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=4"
       mediaAnimation="slide-up"
       title="Dúvidas Frequentes"
       description="Tudo o que você precisa saber antes da sua consulta."
