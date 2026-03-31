@@ -29,62 +29,26 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Início",
-          id: "hero",
-        },
-        {
-          name: "Serviços",
-          id: "services",
-        },
-        {
-          name: "Depoimentos",
-          id: "testimonials",
-        },
-        {
-          name: "FAQ",
-          id: "faq",
-        },
+        { name: "Início", id: "hero" },
+        { name: "Serviços", id: "services" },
+        { name: "Depoimentos", id: "testimonials" },
+        { name: "FAQ", id: "faq" },
       ]}
       brandName="SmileDental"
+      button={{ text: "Agendar", href: "https://wa.me/55000000000" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Transforme seu sorriso hoje com tecnologia premium"
       description="Atendimento odontológico especializado com foco em conforto, tecnologia de ponta e resultados que elevam sua autoestima. Agende sua avaliação via WhatsApp agora mesmo."
       tag="Clínica Dental Referência"
-      buttons={[
-        {
-          text: "Agendar via WhatsApp",
-          href: "https://wa.me/55000000000",
-        },
-      ]}
+      buttons={[{ text: "Agendar via WhatsApp", href: "https://wa.me/55000000000" }]}
       mediaItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=1",
-          imageAlt: "Dentista atendendo paciente",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=2",
-          imageAlt: "Clínica odontológica moderna",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=1",
-          imageAlt: "Equipamento dental avançado",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg?_wi=1",
-          imageAlt: "Procedimento estético",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg?_wi=1",
-          imageAlt: "Consultório premium",
-        },
+        { imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg", imageAlt: "Dentista atendendo paciente" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg", imageAlt: "Clínica odontológica moderna" }
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -99,71 +63,29 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",
-          title: "Implantes Dentários",
-          description: "Recupere a funcionalidade e estética do seu sorriso com segurança e durabilidade.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=2",
-            imageAlt: "Implantes",
-          },
+          id: "f1",          title: "Implantes Dentários",          description: "Recupere a funcionalidade e estética do seu sorriso com segurança e durabilidade.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg", imageAlt: "Implantes" },
           items: [
-            {
-              icon: CheckCircle,
-              text: "Materiais de alta qualidade",
-            },
-            {
-              icon: CheckCircle,
-              text: "Tecnologia guiada por computador",
-            },
+            { icon: CheckCircle, text: "Materiais de alta qualidade" },
+            { icon: CheckCircle, text: "Tecnologia guiada por computador" },
           ],
-          reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=3",
-          imageAlt: "dentista profissional sorrindo consultório",
+          reverse: false
         },
         {
-          id: "f2",
-          title: "Clareamento Dental",
-          description: "Obtenha um sorriso mais branco e radiante com tratamentos supervisionados.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg?_wi=2",
-            imageAlt: "Clareamento",
-          },
+          id: "f2",          title: "Clareamento Dental",          description: "Obtenha um sorriso mais branco e radiante com tratamentos supervisionados.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg", imageAlt: "Clareamento" },
           items: [
-            {
-              icon: CheckCircle,
-              text: "Seguro para o esmalte",
-            },
-            {
-              icon: CheckCircle,
-              text: "Resultados imediatos",
-            },
+            { icon: CheckCircle, text: "Seguro para o esmalte" },
+            { icon: CheckCircle, text: "Resultados imediatos" },
           ],
-          reverse: true,
-          imageSrc: "http://img.b2bpic.net/free-photo/two-woman-look-tooth-picture-tablet-dentist-office_8353-1653.jpg?_wi=3",
-          imageAlt: "dental implant procedure close up",
+          reverse: true
         },
         {
-          id: "f3",
-          title: "Ortodontia",
-          description: "Alinhamento preciso para um sorriso harmonioso e saúde bucal plena.",
-          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg?_wi=2",
-            imageAlt: "Ortodontia",
-          },
+          id: "f3",          title: "Ortodontia",          description: "Alinhamento preciso para um sorriso harmonioso e saúde bucal plena.",          media: { imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-cheerful-beautiful-african-girl-smiling-young-woman-happily-facing-her-future_176420-11233.jpg", imageAlt: "Ortodontia" },
           items: [
-            {
-              icon: CheckCircle,
-              text: "Aparelhos invisíveis",
-            },
-            {
-              icon: CheckCircle,
-              text: "Acompanhamento mensal",
-            },
+            { icon: CheckCircle, text: "Aparelhos invisíveis" },
+            { icon: CheckCircle, text: "Acompanhamento mensal" },
           ],
-          reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/dentist-examining-female-patient-with-tools_107420-74184.jpg?_wi=3",
-          imageAlt: "teeth whitening procedure aesthetic dentistry",
-        },
+          reverse: false
+        }
       ]}
       title="Nossos Especialistas Cuidam de Você"
       description="Oferecemos uma gama completa de tratamentos para manter sua saúde bucal impecável."
@@ -177,26 +99,11 @@ export default function LandingPage() {
       rating={5}
       author="Mariana Santos"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/doctor-examining-female-patients-face_107420-73965.jpg",
-          alt: "Mariana",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/joyful-man-white-tshirt-jacket-smiling-brown-background_197531-26657.jpg",
-          alt: "João",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/blonde-senior-woman-being-happy-against-blue-background_23-2149310406.jpg",
-          alt: "Ana",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-female-posing_23-2148880191.jpg",
-          alt: "Carlos",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/doctor-examining-female-patients-face_107420-73965.jpg",
-          alt: "Beatriz",
-        },
+        { src: "http://img.b2bpic.net/free-photo/doctor-examining-female-patients-face_107420-73965.jpg", alt: "Mariana" },
+        { src: "http://img.b2bpic.net/free-photo/joyful-man-white-tshirt-jacket-smiling-brown-background_197531-26657.jpg", alt: "João" },
+        { src: "http://img.b2bpic.net/free-photo/blonde-senior-woman-being-happy-against-blue-background_23-2149310406.jpg", alt: "Ana" },
+        { src: "http://img.b2bpic.net/free-photo/portrait-beautiful-young-female-posing_23-2148880191.jpg", alt: "Carlos" },
+        { src: "http://img.b2bpic.net/free-photo/doctor-examining-female-patients-face_107420-73965.jpg", alt: "Beatriz" },
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
@@ -208,23 +115,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "q1",
-          title: "Como agendar uma avaliação?",
-          content: "Basta clicar no botão de WhatsApp em nossa página e falar diretamente com nossa equipe.",
-        },
-        {
-          id: "q2",
-          title: "Aceitam convênio?",
-          content: "Trabalhamos com os principais planos de saúde. Entre em contato para confirmar o seu.",
-        },
-        {
-          id: "q3",
-          title: "Qual a duração do procedimento?",
-          content: "Cada tratamento é personalizado. Avaliamos a duração durante sua primeira consulta.",
-        },
+        { id: "q1", title: "Como agendar uma avaliação?", content: "Basta clicar no botão de WhatsApp em nossa página e falar diretamente com nossa equipe." },
+        { id: "q2", title: "Aceitam convênio?", content: "Trabalhamos com os principais planos de saúde. Entre em contato para confirmar o seu." },
+        { id: "q3", title: "Qual a duração do procedimento?", content: "Cada tratamento é personalizado. Avaliamos a duração durante sua primeira consulta." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg?_wi=4"
+      imageSrc="http://img.b2bpic.net/free-photo/portrait-beautiful-stylish-young-woman_158538-3957.jpg"
       mediaAnimation="slide-up"
       title="Dúvidas Frequentes"
       description="Tudo o que você precisa saber antes da sua consulta."
@@ -237,23 +132,12 @@ export default function LandingPage() {
       animationType="slide-up"
       useInvertedBackground={true}
       faqs={[
-        {
-          id: "c1",
-          title: "Atendem emergências?",
-          content: "Sim, temos horários reservados para casos de emergência odontológica.",
-        },
-        {
-          id: "c2",
-          title: "Onde ficam localizados?",
-          content: "Estamos no centro da cidade, com fácil acesso e estacionamento conveniado.",
-        },
+        { id: "c1", title: "Atendem emergências?", content: "Sim, temos horários reservados para casos de emergência odontológica." },
+        { id: "c2", title: "Onde ficam localizados?", content: "Estamos no centro da cidade, com fácil acesso e estacionamento conveniado." },
       ]}
       ctaTitle="Pronto para um novo sorriso?"
       ctaDescription="Nossa equipe está pronta para te atender. Clique abaixo e inicie sua conversa pelo WhatsApp."
-      ctaButton={{
-        text: "Agendar Agora",
-        href: "https://wa.me/55000000000",
-      }}
+      ctaButton={{ text: "Agendar Agora", href: "https://wa.me/55000000000" }}
       ctaIcon={MessageCircle}
     />
   </div>
@@ -261,34 +145,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        {
-          items: [
-            {
-              label: "Início",
-              href: "#hero",
-            },
-            {
-              label: "Serviços",
-              href: "#services",
-            },
-            {
-              label: "Depoimentos",
-              href: "#testimonials",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "WhatsApp",
-              href: "https://wa.me/55000000000",
-            },
-            {
-              label: "Privacidade",
-              href: "#",
-            },
-          ],
-        },
+        { items: [{ label: "Início", href: "#hero" }, { label: "Serviços", href: "#services" }, { label: "Depoimentos", href: "#testimonials" }] },
+        { items: [{ label: "WhatsApp", href: "https://wa.me/55000000000" }, { label: "Privacidade", href: "#" }] },
       ]}
       logoText="SmileDental"
     />
